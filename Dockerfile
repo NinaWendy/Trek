@@ -8,7 +8,9 @@ COPY . /app
 WORKDIR /app
 
 # database url
-ENV DATABASE_URL=postgresql://postgres:password@192.168.100.145:5432/todo
+# ENV DATABASE_URL=postgresql://postgres:password@192.168.100.145:5432/todo
+ENV DATABASE_URL=postgresql://postgres:password@192.168.100.130:5432/todo4
+
 
 # Install and setup dependencies, and seed data
 RUN mix setup
