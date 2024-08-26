@@ -6,7 +6,7 @@ config :todo_trek, TodoTrek.Repo,
   username: "postgres",
   password: "password",
   # specify the ip address of your machine
-  hostname: "192.168.100.130",
+  hostname: "192.168.100.145",
   database: "todo4",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
